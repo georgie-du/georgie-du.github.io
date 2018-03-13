@@ -1,0 +1,176 @@
+* {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+}
+/*------------------NAVBAR -------------------*/
+.navbar {
+	margin: 0;
+	border-radius: 0;
+	color: #fff;
+	padding: 1% 0;
+	font-size: 1.3em;
+	border: 0;
+}
+
+.navbar-brand {
+	float: left;
+	min-height: 55px;
+	padding: 0 15px;
+	max-width: 100%;
+	height: auto !important;
+}
+
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #fff;
+	background-color: #000;
+}
+
+.navbar-inverse .navbar-nav li a {
+	color: #fff;
+}
+
+/*---------------------CAROUSEL---------------------*/
+.carousel-caption {
+	top: 60%;
+	transform: translateY(-50%);
+	text-transform: uppercase;
+}
+
+.btn {
+	font-size: 18px;
+	color: #fff;
+	padding: 12px 22px;
+	background: #000;
+	border: 2px solid #fff;
+}
+
+#myCarousel img {
+	width:100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+/*---------------ABOUT ME SECTION-------------------*/
+#about {
+	padding: 50px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+#aboutme h2:after {
+	width: 70px;
+	height: 2px;
+	background-color: #ffe41b;
+	display: block;
+	content: "";
+	margin: 20px auto;
+}
+
+#aboutme p {
+	padding: 10px 5%;
+	font-size: 1.3em;
+}
+
+#skills h2:after {
+	width: 70px;
+	height: 2px;
+	background-color: #ffe41b;
+	display: block;
+	content: "";
+	margin: 20px auto;
+}
+
+#skills p {
+	padding: 10px 5%;
+	font-size: 1.3em;
+}
+
+#skills i {
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+.icon {
+	font-size: 45px;
+	padding-left: 25px;
+}
+
+@media (max-width: 600px) {
+	.carousel-caption {
+		display: none;
+	}
+
+	h2 {
+		font-size: 1.4em;
+	}
+
+	#aboutme p {
+		font-size: 1em;
+	}
+
+}
+.container-fluid {
+	padding-top: 0px;
+}
+
+/*---------------------PORTFOLIO-----------------------*/
+.card {
+	max-width: 250px;
+	margin: auto;
+}
+
+#projects {
+	padding: 50px 0;
+	border-bottom: 1px solid lightgray;
+}
+
+.projects-title h2:after {
+	width: 70px;
+	height: 2px;
+	background-color: #ffe41b;
+	display: block;
+	content: "";
+	margin: 20px auto;
+}
+
+.card {
+	margin-bottom: 30px;
+	border-radius: 0;
+}
+
+.card-img {
+	width: 100%;
+	border-radius: 0;
+}
+
+.card-block {
+	padding-bottom: 25px;
+}
+
+.card-text {
+	font-size: 1em;
+	line-height: normal;
+}
+/*--------------------FOOTER---------------------*/
+
+footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+.fa {
+	padding: 25px;
+	font-size: 30px;
+	color: #ffe41b;
+}
+.fa:hover {
+	color: #d5d5d5;
+	text-decoration: none;
+}
+@media (max-width: 900px) {
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
